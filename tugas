@@ -1,0 +1,100 @@
+<?php
+ 
+$data = array(
+ 
+'Data hobi & kebiasaan Mahasiswa ' => array('Nama Mahasiswa' => array('habibaloh'), 'hoby' => array('naik gunung & tidur siang')),
+ 
+'Data hobi & kebiasaan Mahasiswa ' => array('Nama Mahasiswa' => array('gigih perayetno'), 'hoby' => array('futsal & ngoding')),
+ 
+'Data hobi & kebiasaan Mahasiswa ' => array('Nama Mahasiswa' => array('m agus pajriant'), 'hoby' => array('game online & tidur siang')),
+ 
+'Data hobi & kebiasaan Mahasiswa ' => array('Nama Mahasiswa' => array('ardi pernando'), 'hoby' => array('bermalasan & makan banyak')),
+ 
+'Data hobi & kebiasaan Mahasiswa ' => array('Nama Mahasiswa' => array('jiki pernando'), 'hoby' => array('bermalasan & jualan online')),
+);
+
+//menampilkan perulangan array multidimensi
+foreach($data as $name => $data){
+ echo $name . '<br/>';
+ foreach($data as $name2 => $value){
+ echo $name2 . ' : ' . $value[0] .'<br> ';
+ 
+ }
+ 
+ echo'<br/>';
+}
+echo '=============================================================================================================================================';
+ echo '<br/>';
+
+ $umur = array(
+ 
+'Data Umur ' => array('Nama ' => array('habibaloh'), 'umur sekarang' => array('19')),
+ 
+'Data Umur ' => array('Nama ' => array('gigih perayetno'), 'umur sekarang' => array('20')),
+ 
+'Data Umur ' => array('Nama ' => array('m agus pajriant'), 'umur sekarang' => array('19')),
+ 
+'Data Umur ' => array('Nama ' => array('ardi pernando'), 'umur sekarang ' => array('19')),
+ 
+'Data Umur ' => array('Nama ' => array('jiki pernando'), 'umur sekarang' => array('19')),
+);
+
+//menampilkan perulangan array multidimensi
+foreach($umur as $name => $data){
+ echo $name . '<br/>';
+ foreach($data as $name2 => $value){
+ echo $name2 . ' : ' . $value[0] .'<br> ';
+ }
+ echo '<br/>';
+}
+ echo '=============================================================================================================================================';
+ echo '<br/>';
+ 
+ $hobi = array(
+ 
+'Data cita-cita ' => array('Nama ' => array('habibaloh'), 'cita-cita' => array(' pengacara ')),
+ 
+'Data cita-cita ' => array('Nama ' => array('gigih perayetno'), 'cita-cita' => array(' disainer ')),
+ 
+'Data cita-cita ' => array('Nama ' => array('m agus pajriant'), 'cita-cita' => array(' pilot ')),
+ 
+'Data cita-cita ' => array('Nama ' => array('ardi pernando'), 'cita-cita' => array(' menejer ')),
+ 
+'Data cita-cita ' => array('Nama ' => array('jiki pernando'), 'cita-cita' => array(' pengusaha ')),
+);
+
+//menampilkan perulangan array multidimensi
+foreach($hobi as $name => $data){
+ echo $name . '<br/>';
+ foreach($data as $name2 => $value){
+ echo $name2 . ' : ' . $value[0] .'<br> ';
+ }
+ echo '<br/>';
+}
+echo '=============================================================================================================================================';
+ echo '<br/>';
+ 
+ $alamat = array(
+ 
+'Data Alamat ' => array('Nama ' => array('habibaloh'), 'Alamat' => array('garut')),
+ 
+'Data Alamat ' => array('Nama ' => array('gigih perayetno'), 'Alamat' => array('lampung')),
+ 
+'Data Alamat ' => array('Nama ' => array('m agus pajriant'), 'Alamat' => array('gunung kidul')),
+ 
+'Data Alamat ' =>array('Nama ' => array('ardi pernando'), 'Alamat' => array('lampung')),
+ 
+'Data Alamat ' =>array('Nama ' => array('jiki pernando'), 'Alamat' => array('lampung')),
+);
+
+//menampilkan perulangan array multidimensi
+foreach($alamat as $name => $data){
+ echo $name . '<br/>';
+ foreach($data as $name2 => $value){
+ echo $name2 . ' : ' . $value[0] .'<br> ';
+ }
+ echo '<br/>';
+ }
+echo '==============================================================================================================================================';
+ echo '<br/>';
+?>     
